@@ -1,0 +1,31 @@
+[project]
+name = "multi-agent-research-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mobassir Khan", email = "mobassirkhan10230@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.9",
+    "langchain-chroma>=1.1.0",
+    "langchain-mistralai>=1.1.6",
+    "langchain-openai>=1.7.4",
+    "langchain-text-splitters>=1.1.3",
+    "langgraph>=1.2.20",
+    "pydantic>=2.14.3",
+    "pymupdf>=2.1",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.3.0",
+    "streamlit>=1.67.0",
+    "tavily>=1.1.0",
+    "reportlab",
+]
+
+[project.scripts]
+multi-agent-research-assistant = "multi_agent_research_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

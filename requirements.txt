@@ -1,0 +1,21 @@
+
+
+# ==================================
+# AI AND LLM INTEGRATION
+# ==================================
+langgraph
+langchain
+langchain-mistralai
+
+# ==================================
+# DATA VALIDATION AND CONFIGURATION
+# ==================================
+pydantic
+python-dotenv
+
+# ==================================
+# PYTHON TOOLS
+# ==================================
+tavily-python
+pymupdf
+reportlab
